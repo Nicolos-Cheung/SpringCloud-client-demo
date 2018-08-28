@@ -1,0 +1,15 @@
+eureka:
+  client:
+    service-url:
+     #eureka server注册地址
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+   #自定义链接
+    hostname: eureka-client1
+
+spring:
+  application:
+    name: eureka-client1
+server:
+  port: 8762
+
